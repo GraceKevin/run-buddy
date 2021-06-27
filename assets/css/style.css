@@ -125,9 +125,7 @@ section {
     font-size: 16px;
 }
 /* Hero Form Style End */
-.intro {
-    text-align: center;
-}
+
 /* remove this section
 .intro h2 {
     font-size: 55px;
@@ -149,7 +147,6 @@ section {
 
 /*what you do*/
 .steps {
-    text-align: center;
     background: #fce138;
 }
 /* remove this section
@@ -190,9 +187,6 @@ section {
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
 }
 
@@ -206,7 +200,6 @@ section {
 
 /*trainers*/
 .trainers {
-    text-align: center;
 }
 
 .trainer {
@@ -253,9 +246,18 @@ section {
     text-align: right;
 }
 
+.flex-row {
+    display: flex;
+}
+
+.step-text h4 {
+    font-size: 26px;
+    line height: 1.5;
+    color: #024e76;
+}
+
 /* Reach Out Section */
 .contact {
-    text-align: center;
     background: #024e76;
 }
 .contact h2 {
